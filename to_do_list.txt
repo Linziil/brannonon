@@ -1,0 +1,8 @@
+Validation for all input fields
+delete post functionality
+addpost login
+add variable_name creation script
+style new post page
+fix !empty search error
+properly comment and arrange all code especially stylesheets
+page numbers and posts per page

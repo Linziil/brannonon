@@ -1,0 +1,406 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---------------------------------------------------*/
+
+body{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: white;
+}
+
+
+p{
+	font-family: "adelle";
+	font-weight: 300;
+	padding: 20px ;
+	width: 620px;
+	line-height: 1.2em;
+	
+}
+
+header{
+	width: 100%;
+	padding-bottom: 45px;
+	margin-top: 45px;
+	padding-top: none;
+}
+
+ul{
+	padding-top: 10px;
+}
+
+.category_container li a{
+	font-family: "adelle";
+	font-size: 1.2em;
+	font-weight: 200; 
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	float: left;
+	text-decoration: none;
+	padding: 0px 4px 5px 4px;
+	border-bottom: solid white 5px;
+}
+
+.category_container li a:hover{
+	border-bottom: solid black 5px;
+}
+
+.category_container ul{
+	float: left;
+	width: 100%;
+	position: absolute;
+	height: auto;
+	
+	border-bottom: double 6px black ;
+	
+}
+
+.category_container li{
+	text-decoration: none;
+	float: left;
+	padding: 0px 2px;
+}
+
+.search{
+	position: absolute;
+	z-index: 2;
+	font-family: "adelle";
+	font-style: italic;
+	padding: 0px 10px 0px 10px;
+	font-size: 60px;
+	font-weight: 800;
+	margin: 0px;
+	width: 592px;
+	display: inline-block;
+	top: -10px;
+	left: 345px;
+	border: none;
+	cursor: help;
+	
+	
+}
+
+h1{	margin-top: none; 
+	padding-bottom: 10px;
+	font-family: "adelle";
+	font-size: 60px;
+	font-style: italic;
+	font-weight:800;
+	width: 470px;
+	display: block;
+}
+
+h2{	margin-top: none;
+	width: 50%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-family: "adelle";
+	font-size: 20px;
+	font-weight:600;
+}
+
+h3{	position: absolute;
+	top: 5px;
+	right: 30px;
+	z-index: 2;
+	margin-top: none;
+	float: right;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: white;
+	font-family: "adelle";
+	font-size: 18px;
+	font-weight:400;
+}
+
+.content_container{
+	padding-top: 20px;
+	width: 675px;
+	float: left;
+}
+
+.footer{
+	float: left;
+	width: 675px;
+	padding-bottom: 20px;
+}
+
+.footer ul{
+	float: left;
+	width: 100%;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.footer li a{
+	color: black;
+	font-size: 1em;
+}
+
+.search_fail_container{
+	padding-top: 20px;
+	width: 960px;
+	float: left;
+}
+
+.search_fail_container p{
+	margin-top: 40px;
+	width: 400px;
+	float: left;
+	font-size: 1.7em;
+}
+
+
+h4{
+	padding-top: 10px;
+	padding-left: 20px;
+	color: white;
+	font-family: "adelle";
+	font-size: 20px;
+	font-weight:550;
+}
+
+.sidebar{
+	border-top: 2px solid black;
+	border-right:2px solid black;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	padding: 0px 0px 20px 0px;
+	float: right;
+	width: 250px;
+}
+
+.sidebar_title{
+	background-color: black;
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.sidebar ul{
+	float: right;
+	width: 90%;
+}
+
+.sidebar li a{
+	float: left;
+	width: 100%;
+	font-family: "adelle";
+	font-weight: 300;
+	color: black;
+	text-decoration: none;
+	
+}
+
+.sidebar li a:hover{
+	text-decoration: underline;
+}
+
+.sidebar p{
+	width: 210px;
+	float: left;
+	padding: 0px 0px 20px 20px;
+	
+}
+
+.entry{
+	float: left;
+	width: 100%;
+	border: 2px solid black;
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: margin-left .33s;
+	-moz-transition: margin-left .33s;
+	-webkit-transition: margin-left .33s;
+	-o-transition: margin-left .33s;
+}
+
+.entry a{
+	color: black;
+}
+
+.entry:hover{
+	margin-left: 15px;
+}
+
+.post{
+	float: left;
+	width: 100%;
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+
+.post a{
+	color: black;
+}
+
+
+
+
+a p{
+	color: black;
+}
+
+.entry_header{
+	position: relative;
+	padding-bottom: 5px;
+	width: 670px;
+	background-color: black;
+	padding: 5px 0 0 5px;;
+}
+
+textarea{
+	float: left;
+	line-height: 1.2em;
+	font-size: 1em;
+	font-family: "adelle";
+	font-weight: 300;
+	margin: 5px;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.email{
+	width: 450px;
+	display: block;
+	float: right;
+	padding-right: 20px;
+	margin-top: 20px;
+	border-left: solid 2px black;
+	padding-left: 40px;
+}
+
+.email textarea{ 
+	margin-top: 15px;
+	padding: 1em;
+	float: left;
+	height: 250px;
+	font-size: .9em;
+	font-family: "adelle";
+	font-weight: 300;
+	font-size: 1.2em;
+	width: 90%;
+	display: block;
+	
+	
+}
+
+.email input[type="submit"]{
+	position: absolute;
+	top: 425px;
+	left: 130px;
+	padding: 10px 30px;
+	background-color: black;
+	border:none;
+	color: white;
+	font-family: "adelle";
+	font-weight: 600;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.email label{
+	font-family: "adelle";
+	font-weight: 300;
+	font-size: .8em;
+	display: block;
+	float: right;
+	padding-right: 123px;
+	padding-top: 5px;
+}
+
+input[name="email"]{
+	font-size: 1.2em;
+	padding: .2em;
+	width: 250px;
+	
+}
+
+input[name="post_name"]{
+	width: 400px;
+	display: block;
+	margin-right: 10px;
+}
+
+input[name="post_date"]{
+	width: 200px;
+}
+
+.new_post input[name="post_name"]{
+	width: 400px;
+	float: left;
+	font-family: "adelle";
+	font-size: 20px;
+	font-weight:600;	
+}
+
+.new_post input[name="post_date"]{
+	width: 150px;
+	float: right;
+	margin-right: 5px;
+	font-family: "adelle";
+	font-size: 20px;
+	font-weight:600;	
+}
+
+#follow{
+	position: fixed;
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	overflow: hidden;
+	left: 950px;
+}
+
+
